@@ -23,8 +23,16 @@ switch (_vehicle) do
 			case 4: {_color = "Dark Red";};
 			case 5: {_color = "Blue / White"};
 			case 6: {_color = "Black"};
-			case 7: {_color = "Black"};
+			case 7: {_color = "Police"};
 			case 8: {_color = "Taxi"};
+			case 9: {_color = "Donor Purple"};
+			case 10: {_color = "Donor White"};
+			case 11: {_color = "Donor Sky"};
+			case 12: {_color = "Donor Red"};
+			case 13: {_color = "Donor Yellow"};
+			case 14: {_color = "Donor Pink"};
+			case 15: {_color = "Donor Lime"};
+			case 16: {_color = "Chrome"};
 		};
 	};
 	
@@ -40,6 +48,16 @@ switch (_vehicle) do
 			case 5: {_color = "White"};
 			case 6: {_color = "Grey"};
 			case 7: {_color = "Black"};
+			case 8: {_color = "Police"};
+			case 9: {_color = "Ambulance"};
+			case 10: {_color = "Donor Purple"};
+			case 11: {_color = "Donor White"};
+			case 12: {_color = "Donor Sky"};
+			case 13: {_color = "Donor Red"};
+			case 14: {_color = "Donor Yellow"};
+			case 15: {_color = "Donor Pink"};
+			case 16: {_color = "Donor Lime"};
+			case 17: {_color = "Chrome"};
 		};
 	};
 	
@@ -53,7 +71,16 @@ switch (_vehicle) do
 			case 3: {_color = "Black / White"};
 			case 4: {_color = "Tan"};
 			case 5: {_color = "Green"};
-			case 6: {_color = "Cop"};
+			case 6: {_color = "Police"};
+			case 7: {_color = "Ambulance"};
+			case 8: {_color = "Donor Purple"};
+			case 9: {_color = "Donor White"};
+			case 10: {_color = "Donor Sky"};
+			case 11: {_color = "Donor Red"};
+			case 12: {_color = "Donor Yellow"};
+			case 13: {_color = "Donor Pink"};
+			case 14: {_color = "Donor Lime"};
+			case 15: {_color = "Chrome"};
 		};
 	};
 	
@@ -65,7 +92,17 @@ switch (_vehicle) do
 			case 1: {_color = "Black";};
 			case 2: {_color = "Silver";};
 			case 3: {_color = "Orange";};
-			case 4: {_color = "Cop";};
+			case 4: {_color = "Police White";};
+			case 5: {_color = "Police Blue";};
+			case 6: {_color = "Ambulance"};
+			case 7: {_color = "Donor Purple"};
+			case 8: {_color = "Donor White"};
+			case 9: {_color = "Donor Sky"};
+			case 10: {_color = "Donor Red"};
+			case 11: {_color = "Donor Yellow"};
+			case 12: {_color = "Donor Pink"};
+			case 13: {_color = "Donor Lime"};
+			case 14: {_color = "Chrome"};
 		};
 	};
 	
@@ -75,6 +112,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "White"};
 			case 1: {_color = "Red"};
+			case 2: {_color = "Ambulance"};
 		};
 	};
 	
@@ -100,7 +138,7 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Brown"};
+			case 0: {_color = "Police"};
 			case 1: {_color = "Digi Desert"};
 			case 2: {_color = "Black"};
 			case 3: {_color = "Blue"};
@@ -109,6 +147,14 @@ switch (_vehicle) do
 			case 6: {_color = "Digi Green"};
 			case 7: {_color = "Hunter Camo"};
 			case 8: {_color = "Rebel Camo"};
+			case 9: {_color = "Donor Purple"};
+			case 10: {_color = "Donor White"};
+			case 11: {_color = "Donor Sky"};
+			case 12: {_color = "Donor Red"};
+			case 13: {_color = "Donor Yellow"};
+			case 14: {_color = "Donor Pink"};
+			case 15: {_color = "Donor Lime"};
+			case 16: {_color = "Chrome"};
 		};
 	};
 	
@@ -130,7 +176,15 @@ switch (_vehicle) do
 			case 11: {_color = "Vrana"};
 			case 12: {_color = "Waves Blue"};
 			case 13: {_color = "Rebel Digital"};
-			case 14: {_color = "EMS White"};
+			case 14: {_color = "Air Ambulance"};
+			case 15: {_color = "Donor Purple"};
+			case 16: {_color = "Donor White"};
+			case 17: {_color = "Donor Sky"};
+			case 18: {_color = "Donor Red"};
+			case 19: {_color = "Donor Yellow"};
+			case 20: {_color = "Donor Pink"};
+			case 21: {_color = "Donor Lime"};
+			case 22: {_color = "Chrome"};
 		};
 	};
 	
@@ -142,7 +196,15 @@ switch (_vehicle) do
 			case 1: {_color = "White / Blue"};
 			case 2: {_color = "Digi Green"};
 			case 3: {_color = "Desert Digi"};
-			case 4: {_color = "EMS White"};
+			case 4: {_color = "Air Ambulance"};
+			case 5: {_color = "Donor Purple"};
+			case 6: {_color = "Donor White"};
+			case 7: {_color = "Donor Sky"};
+			case 8: {_color = "Donor Red"};
+			case 9: {_color = "Donor Yellow"};
+			case 10: {_color = "Donor Pink"};
+			case 11: {_color = "Donor Lime"};
+			case 12: {_color = "Chrome"};
 		};
 	};
 	
@@ -195,6 +257,14 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Ion"};
 			case 1: {_color = "Dahoman"};
+			case 2: {_color = "Donor Purple"};
+			case 3: {_color = "Donor White"};
+			case 4: {_color = "Donor Sky"};
+			case 5: {_color = "Donor Red"};
+			case 6: {_color = "Donor Yellow"};
+			case 7: {_color = "Donor Pink"};
+			case 8: {_color = "Donor Lime"};
+			case 9: {_color = "Chrome"};
 		};
 	};
 	

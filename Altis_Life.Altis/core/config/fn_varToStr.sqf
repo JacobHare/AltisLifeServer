@@ -54,7 +54,9 @@ switch (_var) do
 	case "life_inv_cokep": {(localize "STR_Item_CocaineP")};
 	case "life_inv_spikeStrip": {(localize "STR_Item_SpikeStrip")};
 	case "life_inv_rock": {(localize "STR_Item_Rock")};
+	case "life_inv_jailrock": {(localize "STR_Item_Rock")};
 	case "life_inv_cement": {(localize "STR_Item_CementBag")};
+	case "life_inv_crushedrock": {(localize "STR_Item_CrushedRock")};
 	case "life_inv_goldbar": {(localize "STR_Item_GoldBar")};
 	case "life_inv_blastingcharge": {(localize "STR_Item_BCharge")};
 	case "life_inv_boltcutter": {(localize "STR_Item_BCutter")};
@@ -82,7 +84,9 @@ switch (_var) do
 	case "license_civ_salt": {(localize "STR_License_Salt")};
 	case "license_civ_coke": {(localize "STR_License_Cocaine")};
 	case "license_civ_marijuana": {(localize "STR_License_Marijuana")};
+	case "license_civ_crushedrock": {(localize "STR_License_CrushedRock")};
 	case "license_civ_cement": {(localize "STR_License_Cement")};
 	case "license_med_air": {(localize "STR_License_Pilot")};
 	case "license_civ_home": {(localize "STR_License_Home")};
+	case "license_civ_whitelistedreb2": {(localize "STR_License_WhitelistedReb2")};
 };

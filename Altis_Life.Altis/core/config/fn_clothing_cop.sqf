@@ -19,15 +19,19 @@ switch (_filter) do
 	//Uniforms
 	case 0:
 	{
-		_ret pushBack ["U_Rangemaster","Cop Uniform",25];
-		if(__GETC__(life_coplevel) > 1) then
+		_ret pushBack ["U_B_CombatUniform_mcam","Police Uniform",25];
+		if(__GETC__(life_coplevel) > 4) then
 		{
-			_ret pushBack ["U_B_CombatUniform_mcam_tshirt",nil,350];
-			_ret pushBack ["U_B_survival_uniform",nil,1250];
+			_ret pushBack ["U_I_HeliPilotCoveralls","Pilot Overalls",100];
+			_ret pushBack ["U_B_Wetsuit",nil,100];
 		};
-		if(__GETC__(life_coplevel) > 2) then
+		if(__GETC__(life_coplevel) > 5) then
 		{
-			_ret pushBack ["U_B_CombatUniform_mcam_worn",nil,550];
+			_ret pushBack ["U_B_CTRG_1","Sergeant Uniform",100];
+		};
+		if(__GETC__(life_coplevel) > 7) then
+		{
+			_ret pushBack ["U_B_CombatUniform_mcam_worn","Officer Uniform",100];
 		};
 	};
 	
@@ -36,13 +40,24 @@ switch (_filter) do
 	{
 		if(__GETC__(life_coplevel) > 1) then
 		{
-			_ret pushBack ["H_HelmetB_plain_mcamo",nil,75];
-			_ret pushBack ["H_Booniehat_mcamo",nil,120];
+			_ret pushBack ["H_PilotHelmetFighter_B",nil,4500];
 		};
 		
-		if(__GETC__(life_coplevel) > 2) then
+		if(__GETC__(life_coplevel) > 4) then
 		{
-			_ret pushBack ["H_MilCap_mcamo",nil,100];
+			_ret pushBack ["H_Watchcap_blk",nil,100];
+			_ret pushBack ["G_Balaclava_blk",nil,100];
+			_ret pushBack ["H_Beret_blk_POLICE",nil,100];
+			_ret pushBack ["H_Beret_02",nil,100];
+		};
+		
+		if(__GETC__(life_coplevel) > 7) then
+		{
+			_ret pushBack ["H_HelmetB_light_black",nil,100];
+			_ret pushBack ["H_HelmetB_plain_blk",nil,100];
+			_ret pushBack ["H_Beret_blk_POLICE",nil,100];
+			_ret pushBack ["G_Balaclava_blk",nil,100];
+			_ret pushBack ["H_Watchcap_blk",nil,100];
 		};
 	};
 	
@@ -62,15 +77,25 @@ switch (_filter) do
 			["G_Lowprofile",nil,30],
 			["G_Combat",nil,55]
 		];
+		if(__GETC__(life_coplevel) > 4) then
+		{
+			_ret pushBack ["G_Diving",nil,250];
+			_ret pushBack ["G_Balaclava_blk",nil,100];
+		};
+		if(__GETC__(life_coplevel) > 7) then
+		{
+			_ret pushBack ["G_Balaclava_blk",nil,100];
+		};
 	};
 	
 	//Vest
 	case 3:
 	{
 		_ret pushBack ["V_Rangemaster_belt",nil,800];
-		if(__GETC__(life_coplevel) > 1) then
+		_ret pushBack ["V_TacVest_blk_POLICE",nil,1500];
+		if(__GETC__(life_coplevel) > 4) then
 		{
-			_ret pushBack ["V_PlateCarrier2_rgr",nil,1500];
+			_ret pushBack ["V_RebreatherB",nil,2500];
 		};
 	};
 	
@@ -83,8 +108,13 @@ switch (_filter) do
 			["B_FieldPack_cbr",nil,500],
 			["B_AssaultPack_cbr",nil,700],
 			["B_Bergen_sgg",nil,2500],
-			["B_Carryall_cbr",nil,3500]
+			["B_Carryall_cbr",nil,3500],
+			["B_Parachute",nil,10000]
 		];
+		if(__GETC__(life_coplevel) > 6) then
+		{
+			_ret pushBack ["B_UAV_01_backpack_F","UAV",20000];
+		};
 	};
 };
 

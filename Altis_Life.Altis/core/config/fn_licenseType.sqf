@@ -37,9 +37,11 @@ switch (_mode) do
 			case "sand": {_var = "license_civ_sand"};
 			case "iron": {_var = "license_civ_iron"};
 			case "copper": {_var = "license_civ_copper"};
+			case "crushedrock": {_var = "license_civ_crushedrock"};
 			case "cement": {_var = "license_civ_cement"};
 			case "mair": {_var = "license_med_air"};
 			case "home": {_var = "license_civ_home"};
+			case "whitelistedreb2": {_var = "license_civ_whitelistedreb2"};
 			default {_var = ""};
 		};
 	};
