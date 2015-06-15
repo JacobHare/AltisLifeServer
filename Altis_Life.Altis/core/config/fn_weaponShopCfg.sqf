@@ -50,7 +50,6 @@ switch(_shop) do
                     [
                         ["LMG_Zafir_F",nil,50000],
                         ["150Rnd_762x51_Box",nil,150],
-                        ["optic_Nightstalker",nil,2000],
                         ["launch_RPG32_F",nil,60000],
                         ["RPG32_F",nil,100],
                         ["SMG_01_F","Taser Rifle",20000],
@@ -71,6 +70,8 @@ switch(_shop) do
                         ["arifle_Mk20_F",nil,8000],
                         ["30Rnd_556x45_Stanag",nil,100],
                         ["srifle_EBR_F",nil,45000],
+						["srifle_DMR_03_tan_F",nil,45000],
+						["srifle_DMR_06_olive_F",nil,45000],
                         ["20Rnd_762x51_Mag",nil,200],
                         ["LMG_Mk200_F",nil,45000],
                         ["200Rnd_65x39_cased_Box_Tracer",nil,500],
@@ -109,8 +110,8 @@ switch(_shop) do
                         ["SmokeShellPurple",nil,100],
                         ["SmokeShellOrange",nil,100],
                         ["MineDetector",nil,1000],
-                        ["B_IR_Grenade",nil,1000]
-                        
+                        ["B_IR_Grenade",nil,1000],
+						["bipod_01_F_snd",nil,1000]
                     ]
                 ];
             };
@@ -136,6 +137,8 @@ switch(_shop) do
                         ["arifle_Mk20_F",nil,8000],
                         ["30Rnd_556x45_Stanag",nil,100],
                         ["srifle_EBR_F",nil,45000],
+						["srifle_DMR_03_tan_F",nil,45000],
+						["srifle_DMR_06_olive_F",nil,45000],
                         ["20Rnd_762x51_Mag",nil,200],
                         ["LMG_Mk200_F",nil,45000],
                         ["200Rnd_65x39_cased_Box_Tracer",nil,500],
@@ -151,6 +154,8 @@ switch(_shop) do
                         ["optic_Holosight",nil,2000],
                         ["optic_Aco",nil,1000],
                         ["optic_DMS",nil,1000],
+						["optic_AMS_snd",nil,1000],
+						["optic_KHS_tan",nil,1000],
                         ["optic_MRCO",nil,1500],
                         ["acc_flashlight",nil,1000],
                         ["acc_pointer_IR",nil,1000],
@@ -174,7 +179,8 @@ switch(_shop) do
                         ["SmokeShellPurple",nil,100],
                         ["SmokeShellOrange",nil,100],
                         ["MineDetector",nil,1000],
-                        ["B_IR_Grenade",nil,1000]
+                        ["B_IR_Grenade",nil,1000],
+						["bipod_01_F_snd",nil,1000]
                     ]
                 ];
             };
@@ -214,7 +220,8 @@ switch(_shop) do
                         ["SmokeShellOrange",nil,100],
                         ["B_Kitbag_cbr",nil,800],
                         ["NVGoggles_OPFOR",nil,1000],
-                        ["MineDetector",nil,1000]
+                        ["MineDetector",nil,1000],
+						["bipod_01_F_snd",nil,1000]
                     ]
                 ];
             };
@@ -257,7 +264,8 @@ switch(_shop) do
                         ["SMG_01_F",nil,70000],
                         ["hgun_PDW2000_F",nil,60000],
                         ["arifle_Mk20_F",nil,90000],
-                        ["arifle_Katiba_F",nil,120000],
+						["arifle_TRG21_F",nil,95000],
+                        ["arifle_Katiba_F",nil,140000],
                         ["arifle_MX_Black_F",nil,140000],
                         ["arifle_MXC_Black_F",nil,140000],
 						["arifle_SDAR_F","Scuba Gun",15000],
@@ -286,7 +294,8 @@ switch(_shop) do
                         ["FirstAidKit",nil,500],
                         ["NVGoggles",nil,2000],
                         ["SatchelCharge_Remote_Mag",nil,125000],
-                        ["MineDetector",nil,10000]
+                        ["MineDetector",nil,10000],
+						["bipod_01_F_blk",nil,1000]
                     ]
                 ];
             };
@@ -303,11 +312,12 @@ switch(_shop) do
             {
                 ["Whitelisted Rebel Shop",
                     [
-                        ["hgun_Pistol_Signal_F",nil,30000],
-                        ["hgun_PDW2000_F",nil,40000],
-                        ["SMG_01_F",nil,60000],
+                        ["hgun_Pistol_Signal_F",nil,10000],
+                        ["hgun_PDW2000_F",nil,20000],
+                        ["SMG_01_F",nil,30000],
                         ["arifle_Mk20_F",nil,80000],
-                        ["arifle_Katiba_F",nil,140000],
+						["arifle_TRG21_F",nil,50000],
+                        ["arifle_Katiba_F",nil,120000],
                         ["arifle_Katiba_C_F",nil,120000],
                         ["arifle_MX_Black_F",nil,95000],
                         ["arifle_MXC_Black_F",nil,95000],
@@ -315,8 +325,10 @@ switch(_shop) do
                         ["arifle_MX_SW_Black_F",nil,120000],
 						["srifle_DMR_01_F",nil,130000],
                         ["srifle_EBR_F",nil,200000],
+						["srifle_DMR_03_F",nil,200000],
+						["srifle_DMR_06_camo_F",nil,200000],
                         ["30Rnd_9x21_Mag",nil,500],
-                        ["30Rnd_556x45_Stanag",nil,750],
+                        ["30Rnd_556x45_Stanag",nil,100],
                         ["30Rnd_45ACP_Mag_SMG_01",nil,750],
                         ["30Rnd_65x39_caseless_green",nil,750],
                         ["30Rnd_65x39_caseless_mag",nil,750],
@@ -334,6 +346,8 @@ switch(_shop) do
                         ["optic_ACO_grn_smg",nil,5000],
                         ["optic_Holosight_smg",nil,5000],
                         ["optic_DMS",nil,50000],
+						["optic_KHS_blk",nil,50000],
+						["optic_AMS",nil,50000],
                         ["optic_SOS",nil,80000],
                         ["acc_flashlight",nil,500],
                         ["acc_pointer_IR",nil,2000],
@@ -342,7 +356,8 @@ switch(_shop) do
                         ["ToolKit",nil,3000],
                         ["Medikit",nil,5000],
                         ["optic_Hamr",nil,7500],
-                        ["MineDetector",nil,10000]
+                        ["MineDetector",nil,10000],
+						["bipod_01_F_blk",nil,1000]
                     ]
                 ];
             };
@@ -411,7 +426,8 @@ switch(_shop) do
 						["Chemlight_red",nil,300],
 						["Chemlight_yellow",nil,300],
 						["Chemlight_green",nil,300],
-						["Chemlight_blue",nil,300]
+						["Chemlight_blue",nil,300],
+						["bipod_01_F_blk",nil,1000]
                     ]
                 ];
             };

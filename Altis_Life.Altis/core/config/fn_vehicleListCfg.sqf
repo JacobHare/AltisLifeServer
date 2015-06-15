@@ -48,7 +48,7 @@ switch (_shop) do
 			["C_SUV_01_F",40000], // SUV
 			["C_Hatchback_01_sport_F",50000] // Hatchback (Sport)
 		];
-		if(__GETC__(life_donator) == 1) then
+		if(__GETC__(life_donator) > 0) then
 		{
 			_return =
 			[
@@ -102,7 +102,6 @@ switch (_shop) do
 			["C_Hatchback_01_F",3500], // Hatchback
 			["C_Hatchback_01_sport_F",50000], // Hatchback (Sport)
 			["C_Offroad_01_F",7000], // Offroad
-			["O_MRAP_02_F",1500000], // Ifrit
 			["C_Van_01_transport_F",15000], // Truck
 			["C_Van_01_box_F",7500], // Truck Boxer
 			["I_Truck_02_transport_F",50000], // Zamak Transport
@@ -137,7 +136,7 @@ switch (_shop) do
 			["B_Truck_01_covered_F",425000], // HEMTT Transport (Covered)
 			["B_Truck_01_box_F",550000] // HEMTT Box
 		];	
-		if(__GETC__(life_donator) == 1) then
+		if(__GETC__(life_donator) > 0) then
 		{
 			_return =
 			[
@@ -169,7 +168,7 @@ switch (_shop) do
 			["O_Heli_Transport_04_covered_F",2100000], // Mi-290 Taru (Transport)
 			["I_Heli_light_03_unarmed_F",4000000] // WY-55 Hellcat (Green)
 		];
-		if(__GETC__(life_donator) == 1) then
+		if(__GETC__(life_donator) > 0) then
 		{
 			_return =
 			[
@@ -182,6 +181,21 @@ switch (_shop) do
 				["I_Heli_light_03_unarmed_F",2800000] // WY-55 Hellcat (Green)
 			];
 		};
+	};
+	
+	case "wreb":
+	{
+		_return =
+		[
+			["B_Quadbike_01_F",5000], // Quadbike
+			["B_G_Offroad_01_F",20000], // Offroad
+			["O_MRAP_02_F",80000], // Ifrit
+			["B_Heli_Light_01_F",450000], // MH-9 Hummingbird
+			["O_Heli_Transport_04_F",1900000], // Mi-290 Taru
+			["O_Heli_Transport_04_bench_F",2000000], // Mi-290 Taru (Bench)
+			["O_Heli_Transport_04_covered_F",2100000], // Mi-290 Taru (Transport)
+			["I_Heli_light_03_unarmed_F",4000000] // WY-55 Hellcat (Green)
+		];
 	};
 	
 	case "cop_car":
@@ -207,21 +221,21 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["B_Heli_Light_01_F",450000], // MH-9 Hummingbird
-			["C_Heli_Light_01_civil_F",450000], // M-900
-			["O_Heli_Light_02_unarmed_F",1000000], // PO-30 Orca (Black)
-			["I_Heli_light_03_unarmed_F",4000000], // WY-55 Hellcat (Green)
+			["B_Heli_Light_01_F",900000], // MH-9 Hummingbird
+			["C_Heli_Light_01_civil_F",900000], // M-900
+			["O_Heli_Light_02_unarmed_F",3000000], // PO-30 Orca (Black)
+			["I_Heli_light_03_unarmed_F",7000000], // WY-55 Hellcat (Green)
 			["B_Heli_Transport_03_unarmed_F",9000000] // CH-67 Huron (Black)
 		];
-		if(__GETC__(life_donator) == 1) then
+		if(__GETC__(life_donator) > 0) then
 		{
 			_return =
 			[
-				["B_Heli_Light_01_F",315000], // MH-9 Hummingbird
-				["C_Heli_Light_01_civil_F",315000], // M-900
-				["O_Heli_Light_02_unarmed_F",700000], // PO-30 Orca (Black)
-				["I_Heli_light_03_unarmed_F",2800000], // WY-55 Hellcat (Green)
-				["I_Heli_Transport_02_F",3850000], // CH-49 Mohawk
+				["B_Heli_Light_01_F",450000], // MH-9 Hummingbird
+				["C_Heli_Light_01_civil_F",450000], // M-900
+				["O_Heli_Light_02_unarmed_F",1500000], // PO-30 Orca (Black)
+				["I_Heli_light_03_unarmed_F",3500000], // WY-55 Hellcat (Green)
+				["I_Heli_Transport_02_F",3900000], // CH-49 Mohawk
 				["B_Heli_Transport_03_unarmed_F",4400000] // CH-67 Huron (Black)
 			];
 		};
@@ -285,7 +299,7 @@ switch (_shop) do
 			["C_Rubberboat",5000], // Rescue Boat
 			["C_Boat_Civil_01_F",22000] // Motorboat
 		];
-		if(__GETC__(life_donator) == 1) then
+		if(__GETC__(life_donator) > 0) then
 		{
 			_return =
 			[
@@ -304,7 +318,7 @@ switch (_shop) do
 			["B_Boat_Armed_01_minigun_F",75000], // Speedboat Minigun
 			["B_SDV_01_F",100000] // SDV
 		];
-		if(__GETC__(life_donator) == 1) then
+		if(__GETC__(life_donator) > 0) then
 		{
 			_return =
 			[

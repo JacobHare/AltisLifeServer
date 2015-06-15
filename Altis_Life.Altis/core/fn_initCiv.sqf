@@ -19,6 +19,10 @@ if(life_is_arrested) then
 }
 	else
 {
+	[] spawn life_fnc_startScreen;
+	waitUntil{!isNull (findDisplay 999999)}; //Wait for the welcome to be open.
+	waitUntil{isNull (findDisplay 999999)}; //Wait for the welcome to be done.
+	
 	[] call life_fnc_spawnMenu;
 	waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 	waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.

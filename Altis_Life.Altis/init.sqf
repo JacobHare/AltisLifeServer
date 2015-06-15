@@ -16,6 +16,7 @@ life_versionInfo = "Altis Life RPG v3.1.4.8";
 [] execVM "scripts\fn_statusBar.sqf";
 _igiload = execVM "IgiLoad\IgiLoadInit.sqf";
 // [] execVM "scripts\fn_snowfall.sqf";
+[] execVM "zlt_fastrope.sqf";
 
 StartProgress = true;
 

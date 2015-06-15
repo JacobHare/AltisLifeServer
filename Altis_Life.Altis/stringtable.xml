@@ -5229,4 +5229,10 @@
 			<Portuguese>Roubar Jogador</Portuguese>
 		</Key>
 	</Package>
+	<Package name="Notifications">
+		<Key ID="STR_NOTF_STR_NOTF_CannotImpoundCops">
+			<Original>You can't impound cop cars</Original>
+			<French>Vous ne pouvez pas saisir les véhicules des forces de l'ordre</French>
+		</Key>
+	</Package> 
 </Project>
