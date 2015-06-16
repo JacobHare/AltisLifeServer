@@ -21,6 +21,7 @@ _message = _message + "<t color='#ff6d10' size='1.1' underline='true'>Changelog<
 // _message = _message + "		<t underline='true'>Bounty Hunter System</t>			<br />If you hold the bounty hunter licence you will have the ability<br />to view the wanted list from the Y menu Bounties option. (New Meta-gaming rules to be added)<br /><br />";
 _message = _message + "		<t underline='true'>Bye, Bye Kavala!</t>			<br />Kavala has been removed to reduce size of the map for more interaction with players!<br /><br />";
 _message = _message + "		<t underline='true'>Vehicle Skins!</t>			<br />Has your life exeperience been dull?<br />Well, you came to the right place! we've got a new stock of Purple, Blue, Pink, Red, Yellow and Chrome vehicles!<br /><br />";
+_message = _message + "		<t underline='true'>Mine With Ease!</t>			<br />Mine with ease! No need to keep opening the Y menu to mine, just simply press Q!<br /><br />";
 // _message = _message + "		<t underline='true'>Don't Drink and Drive!</t>			<br />Police can now breathalyze players!<br /><br />";
 _message = _message + "Enjoy!<br />The Frag Staff!<br />";
 
